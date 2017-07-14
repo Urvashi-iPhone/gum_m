@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD52EA411F18C98C00C3752D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52EA401F18C98C00C3752D /* main.m */; };
+		AD52EA441F18C98C00C3752D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52EA431F18C98C00C3752D /* AppDelegate.m */; };
+		AD52EA471F18C98D00C3752D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52EA461F18C98D00C3752D /* ViewController.m */; };
+		AD52EA4A1F18C98D00C3752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD52EA481F18C98D00C3752D /* Main.storyboard */; };
+		AD52EA4C1F18C98E00C3752D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD52EA4B1F18C98E00C3752D /* Assets.xcassets */; };
+		AD52EA4F1F18C98E00C3752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD52EA4D1F18C98E00C3752D /* LaunchScreen.storyboard */; };
+		AD52EA5A1F18C99200C3752D /* GetUMoneyMerchantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52EA591F18C99200C3752D /* GetUMoneyMerchantTests.m */; };
+		AD52EA651F18C99200C3752D /* GetUMoneyMerchantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52EA641F18C99200C3752D /* GetUMoneyMerchantUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD52EA561F18C99200C3752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD52EA341F18C98B00C3752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD52EA3B1F18C98B00C3752D;
+			remoteInfo = GetUMoneyMerchant;
+		};
+		AD52EA611F18C99200C3752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD52EA341F18C98B00C3752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD52EA3B1F18C98B00C3752D;
+			remoteInfo = GetUMoneyMerchant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD52EA3C1F18C98B00C3752D /* GetUMoneyMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUMoneyMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD52EA401F18C98C00C3752D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD52EA421F18C98C00C3752D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD52EA431F18C98C00C3752D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD52EA451F18C98D00C3752D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD52EA461F18C98D00C3752D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD52EA491F18C98D00C3752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD52EA4B1F18C98E00C3752D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD52EA4E1F18C98E00C3752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD52EA501F18C98E00C3752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD52EA551F18C99200C3752D /* GetUMoneyMerchantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUMoneyMerchantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD52EA591F18C99200C3752D /* GetUMoneyMerchantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUMoneyMerchantTests.m; sourceTree = "<group>"; };
+		AD52EA5B1F18C99200C3752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD52EA601F18C99200C3752D /* GetUMoneyMerchantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUMoneyMerchantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD52EA641F18C99200C3752D /* GetUMoneyMerchantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUMoneyMerchantUITests.m; sourceTree = "<group>"; };
+		AD52EA661F18C99300C3752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD52EA391F18C98B00C3752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA521F18C99200C3752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA5D1F18C99200C3752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD52EA331F18C98B00C3752D = {
+			isa = PBXGroup;
+			children = (
+				AD52EA3E1F18C98B00C3752D /* GetUMoneyMerchant */,
+				AD52EA581F18C99200C3752D /* GetUMoneyMerchantTests */,
+				AD52EA631F18C99200C3752D /* GetUMoneyMerchantUITests */,
+				AD52EA3D1F18C98B00C3752D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD52EA3D1F18C98B00C3752D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD52EA3C1F18C98B00C3752D /* GetUMoneyMerchant.app */,
+				AD52EA551F18C99200C3752D /* GetUMoneyMerchantTests.xctest */,
+				AD52EA601F18C99200C3752D /* GetUMoneyMerchantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD52EA3E1F18C98B00C3752D /* GetUMoneyMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				AD52EA421F18C98C00C3752D /* AppDelegate.h */,
+				AD52EA431F18C98C00C3752D /* AppDelegate.m */,
+				AD52EA451F18C98D00C3752D /* ViewController.h */,
+				AD52EA461F18C98D00C3752D /* ViewController.m */,
+				AD52EA481F18C98D00C3752D /* Main.storyboard */,
+				AD52EA4B1F18C98E00C3752D /* Assets.xcassets */,
+				AD52EA4D1F18C98E00C3752D /* LaunchScreen.storyboard */,
+				AD52EA501F18C98E00C3752D /* Info.plist */,
+				AD52EA3F1F18C98C00C3752D /* Supporting Files */,
+			);
+			path = GetUMoneyMerchant;
+			sourceTree = "<group>";
+		};
+		AD52EA3F1F18C98C00C3752D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD52EA401F18C98C00C3752D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD52EA581F18C99200C3752D /* GetUMoneyMerchantTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD52EA591F18C99200C3752D /* GetUMoneyMerchantTests.m */,
+				AD52EA5B1F18C99200C3752D /* Info.plist */,
+			);
+			path = GetUMoneyMerchantTests;
+			sourceTree = "<group>";
+		};
+		AD52EA631F18C99200C3752D /* GetUMoneyMerchantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD52EA641F18C99200C3752D /* GetUMoneyMerchantUITests.m */,
+				AD52EA661F18C99300C3752D /* Info.plist */,
+			);
+			path = GetUMoneyMerchantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD52EA3B1F18C98B00C3752D /* GetUMoneyMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD52EA691F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchant" */;
+			buildPhases = (
+				AD52EA381F18C98B00C3752D /* Sources */,
+				AD52EA391F18C98B00C3752D /* Frameworks */,
+				AD52EA3A1F18C98B00C3752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetUMoneyMerchant;
+			productName = GetUMoneyMerchant;
+			productReference = AD52EA3C1F18C98B00C3752D /* GetUMoneyMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD52EA541F18C99200C3752D /* GetUMoneyMerchantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD52EA6C1F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchantTests" */;
+			buildPhases = (
+				AD52EA511F18C99200C3752D /* Sources */,
+				AD52EA521F18C99200C3752D /* Frameworks */,
+				AD52EA531F18C99200C3752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD52EA571F18C99200C3752D /* PBXTargetDependency */,
+			);
+			name = GetUMoneyMerchantTests;
+			productName = GetUMoneyMerchantTests;
+			productReference = AD52EA551F18C99200C3752D /* GetUMoneyMerchantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD52EA5F1F18C99200C3752D /* GetUMoneyMerchantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD52EA6F1F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchantUITests" */;
+			buildPhases = (
+				AD52EA5C1F18C99200C3752D /* Sources */,
+				AD52EA5D1F18C99200C3752D /* Frameworks */,
+				AD52EA5E1F18C99200C3752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD52EA621F18C99200C3752D /* PBXTargetDependency */,
+			);
+			name = GetUMoneyMerchantUITests;
+			productName = GetUMoneyMerchantUITests;
+			productReference = AD52EA601F18C99200C3752D /* GetUMoneyMerchantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD52EA341F18C98B00C3752D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tecksky Technologies";
+				TargetAttributes = {
+					AD52EA3B1F18C98B00C3752D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AD52EA541F18C99200C3752D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD52EA3B1F18C98B00C3752D;
+					};
+					AD52EA5F1F18C99200C3752D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD52EA3B1F18C98B00C3752D;
+					};
+				};
+			};
+			buildConfigurationList = AD52EA371F18C98B00C3752D /* Build configuration list for PBXProject "GetUMoneyMerchant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD52EA331F18C98B00C3752D;
+			productRefGroup = AD52EA3D1F18C98B00C3752D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD52EA3B1F18C98B00C3752D /* GetUMoneyMerchant */,
+				AD52EA541F18C99200C3752D /* GetUMoneyMerchantTests */,
+				AD52EA5F1F18C99200C3752D /* GetUMoneyMerchantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD52EA3A1F18C98B00C3752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52EA4F1F18C98E00C3752D /* LaunchScreen.storyboard in Resources */,
+				AD52EA4C1F18C98E00C3752D /* Assets.xcassets in Resources */,
+				AD52EA4A1F18C98D00C3752D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA531F18C99200C3752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA5E1F18C99200C3752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD52EA381F18C98B00C3752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52EA471F18C98D00C3752D /* ViewController.m in Sources */,
+				AD52EA441F18C98C00C3752D /* AppDelegate.m in Sources */,
+				AD52EA411F18C98C00C3752D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA511F18C99200C3752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52EA5A1F18C99200C3752D /* GetUMoneyMerchantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD52EA5C1F18C99200C3752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52EA651F18C99200C3752D /* GetUMoneyMerchantUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD52EA571F18C99200C3752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD52EA3B1F18C98B00C3752D /* GetUMoneyMerchant */;
+			targetProxy = AD52EA561F18C99200C3752D /* PBXContainerItemProxy */;
+		};
+		AD52EA621F18C99200C3752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD52EA3B1F18C98B00C3752D /* GetUMoneyMerchant */;
+			targetProxy = AD52EA611F18C99200C3752D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD52EA481F18C98D00C3752D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD52EA491F18C98D00C3752D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD52EA4D1F18C98E00C3752D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD52EA4E1F18C98E00C3752D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD52EA671F18C99300C3752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD52EA681F18C99300C3752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD52EA6A1F18C99300C3752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetUMoneyMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD52EA6B1F18C99300C3752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetUMoneyMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD52EA6D1F18C99300C3752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetUMoneyMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUMoneyMerchant.app/GetUMoneyMerchant";
+			};
+			name = Debug;
+		};
+		AD52EA6E1F18C99300C3752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetUMoneyMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUMoneyMerchant.app/GetUMoneyMerchant";
+			};
+			name = Release;
+		};
+		AD52EA701F18C99300C3752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetUMoneyMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetUMoneyMerchant;
+			};
+			name = Debug;
+		};
+		AD52EA711F18C99300C3752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetUMoneyMerchantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecksky.GetUMoneyMerchantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetUMoneyMerchant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD52EA371F18C98B00C3752D /* Build configuration list for PBXProject "GetUMoneyMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52EA671F18C99300C3752D /* Debug */,
+				AD52EA681F18C99300C3752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD52EA691F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52EA6A1F18C99300C3752D /* Debug */,
+				AD52EA6B1F18C99300C3752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD52EA6C1F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52EA6D1F18C99300C3752D /* Debug */,
+				AD52EA6E1F18C99300C3752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD52EA6F1F18C99300C3752D /* Build configuration list for PBXNativeTarget "GetUMoneyMerchantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52EA701F18C99300C3752D /* Debug */,
+				AD52EA711F18C99300C3752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD52EA341F18C98B00C3752D /* Project object */;
+}
